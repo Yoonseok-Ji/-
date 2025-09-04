@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>흰고래연어육회 - 프리미엄 연어 전문점</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🐋 흰고래연어육회</div>
+            <div class="nav-menu">
+                <a href="#home">홈</a>
+                <a href="#about">소개</a>
+                <a href="#menu">메뉴</a>
+                <a href="#franchise">가맹점</a>
+                <a href="#contact">문의</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">오직, 배달 만으로</h1>
+            <h2 class="hero-revenue">월 5천매출</h2>
+            <p class="hero-subtitle">이제, 점주님들의 차례입니다!</p>
+            <div class="hero-points">
+                <p>단순 유통업체? <strong>NO!</strong></p>
+                <p>소스 개발업체? <strong>NO!</strong></p>
+                <p class="hero-highlight">흰고래 & 돌섬은 '진짜' 전문가입니다.</p>
+            </div>
+            <p class="hero-description">본사에서 직접 4년간 매장을 운영하며 정립해온<br>확실한 성공 메커니즘을 경험하세요.</p>
+            
+            <!-- Video Component -->
+            <div class="video-component">
+                <div class="video-thumbnail" onclick="openVideo()">
+                    <img src="https://img.youtube.com/vi/jnHBFD0iHYY/maxresdefault.jpg" alt="흰고래연어육회 소개 영상">
+                    <div class="play-button"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Video Modal -->
+        <div class="video-modal" id="videoModal">
+            <div class="video-container">
+                <button class="close-button" onclick="closeVideo()">&times;</button>
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section class="performance">
+        <div class="container">
+            <h2 class="section-title">가맹점 <span class="highlight">실적부터</span> 공개!</h2>
+            <div class="total-revenue">
+                <h3>월 평균</h3>
+                <div class="total-amount">60,657,356만원</div>
+            </div>
+            
+            <div class="stores-slider">
+                <div class="stores-track">
+                    <div class="store-card">
+                        <h4>강남점</h4>
+                        <div class="store-amount">45,000,000원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <h4>홍대점</h4>
+                        <div class="store-amount">41,781,100원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 69%"></div>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <h4>신촌점</h4>
+                        <div class="store-amount">52,340,200원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+                    <!-- Duplicate cards for seamless loop -->
+                    <div class="store-card">
+                        <h4>강남점</h4>
+                        <div class="store-amount">45,000,000원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <h4>홍대점</h4>
+                        <div class="store-amount">41,781,100원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 69%"></div>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <h4>신촌점</h4>
+                        <div class="store-amount">52,340,200원</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="disclaimer">이 수치에 거짓은 없습니다.<br>*상권 및 운영방식 등에 의해 상이할 수 있습니다.</p>
+        </div>
+    </section>
+
+    <!-- Scrolling Text 1 -->
+    <div class="scrolling-section">
+        <div class="scroll-content">
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+        </div>
+    </div>
+
+    <!-- Profit Section -->
+    <section class="profit">
+        <div class="container">
+            <h2 class="section-title">가장 중요한 <span class="highlight">순이익은</span> 무려 25%이상</h2>
+            <div class="profit-comparison">
+                <div class="comparison-item">
+                    <h3>일반 배달 전문 매장</h3>
+                    <div class="profit-rate normal">15%</div>
+                    <p>순이익 수준</p>
+                </div>
+                <div class="vs">→</div>
+                <div class="comparison-item">
+                    <h3>흰고래 & 돌섬</h3>
+                    <div class="profit-rate premium">27.2%</div>
+                    <p>기대를 껑충 뛰어넘습니다!</p>
+                </div>
+            </div>
+            <div class="profit-description">
+                <p>흰고래 &돌섬은 자체 개발한 체계적인 시스템으로<br>비용을 최소화하고 수익을 극대화 합니다.</p>
+                <small>*흰고래&돌섬 본점 한달 기준 수치입니다.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scrolling Text 2 -->
+    <div class="scrolling-section">
+        <div class="scroll-content">
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+            <span>놀라지마세요!</span>
+        </div>
+    </div>
+
+    <!-- Dual Brand Section -->
+    <section class="dual-brand">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">차원이 다른</span> 수익 실현!</h2>
+            <h3 class="brand-subtitle">가맹사업계의 <span class="highlight">초신성</span>, 낮 밤 듀얼 브랜딩 흰고래&돌섬입니다.</h3>
+            
+            <div class="dual-concept">
+                <div class="concept-item">
+                    <div class="concept-image">🍲</div>
+                    <h4>낮 - 돌섬미역국</h4>
+                    <p>건강한 한식메뉴</p>
+                </div>
+                <div class="plus">+</div>
+                <div class="concept-item">
+                    <div class="concept-image">🍣</div>
+                    <h4>밤 - 흰고래연어육회</h4>
+                    <p>특색있는 안주 메뉴</p>
+                </div>
+            </div>
+            
+            <div class="dual-benefit">
+                <h3>하나의 매장에서 <span class="highlight">더 많은 수익을</span> 창출 할 수있는 강력한 비결!</h3>
+                <p>낮에는 건강한 한식메뉴 돌섬미역국이,<br>저녁에는 특색있는 안주 메뉴인 흰고래연어육회가 매출을 견인합니다.</p>
+                
+                <div class="system-flow">
+                    <div class="flow-item">
+                        <h4>낮X밤 주력메뉴운영</h4>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="flow-item">
+                        <h4>비용최소화<br>운영효율화</h4>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="flow-item">
+                        <h4>하루종일<br>안정적인<br>매출실현</h4>
+                    </div>
+                </div>
+                
+                <p class="system-note">"단순한 유통사나 소스업체에서는 이런 구조를 시스템화 할 수 없습니다!"</p>
+                <p class="experience-note">흰고래& 돌섬 본사에서 매장을 직접 운영하며 쌓아온 실전 경험<br>직접 구축한 성공매커니즘입니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section class="brand-story">
+        <div class="container">
+            <h2 class="section-title">Brand Story</h2>
+            <h3 class="story-subtitle">흰고래&돌섬<br><span class="highlight">6평에서 만들어낸</span> 낮과 밤의 기적!</h3>
+            
+            <div class="story-content">
+                <p>저희 두 창업자는 20대 초반 창업의 꿈을 안고<br>6평짜리 작은 가게에서 첫발을 내디뎠습니다.</p>
+                
+                <p>과밀한 외식 배달 시장에서 살아남기 위해서<br>남들과는 다른 전략이 필요했습니다!</p>
+                
+                <p>낮과 밤의 매력을 모두 담은 두가지 브랜드를<br>함께 운영하기로 결심했습니다.</p>
+                
+                <div class="story-image">🍲</div>
+                
+                <p><strong>두 브랜드를 안정적으로 운영할 수 있기까지</strong><br>수많은 시행착오를 거쳤고 마침내 해냈습니다.</p>
+                
+                <p>돌섬미역국은 건강한 깊은 국물맛으로<br>흰고래연어육회는 신선한 육회와 한국적인 양념으로<br>고객들의 마음을 사로잡으며<br>저희는 지역의 맛집으로 자리잡았습니다.</p>
+                
+                <div class="story-conclusion">
+                    <h3>"이제 여러분 차례입니다"</h3>
+                    <p>저희가 구축한 성공전략을 함께하고<br>새로운 기회를 만들어가세요</p>
+                    <p>흰고래&돌섬은 점주님들과 성장하기 위해<br>진심으로 고민하고, 최선을 다해 지원하겠습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Benefits -->
+    <section class="franchise-benefits">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">가맹점 혜택</span> 및 지원사항</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🏪</div>
+                    <h3>매장 설계 및 인테리어</h3>
+                    <p>전문 디자이너가 매장 특성에 맞는 최적의 공간 설계와 인테리어를 제공합니다.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📚</div>
+                    <h3>체계적인 교육 시스템</h3>
+                    <p>본사 직영점에서 검증된 운영 노하우와 조리법을 체계적으로 교육합니다.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚚</div>
+                    <h3>안정적인 식자재 공급</h3>
+                    <p>엄선된 고품질 식자재를 합리적인 가격으로 안정적으로 공급합니다.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>마케팅 및 홍보 지원</h3>
+                    <p>SNS 마케팅, 배달앱 최적화, 지역별 맞춤 홍보 전략을 지원합니다.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>합리적인 가맹비</h3>
+                    <p>업계 최저 수준의 가맹비와 로열티로 부담을 최소화했습니다.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>지속적인 운영 지원</h3>
+                    <p>개점 후에도 매출 분석, 운영 컨설팅 등 지속적인 지원을 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Info -->
+    <section class="investment-info">
+        <div class="container">
+            <h2 class="section-title">창업 <span class="highlight">투자 정보</span></h2>
+            
+            <div class="investment-breakdown">
+                <div class="investment-item">
+                    <h3>가맹비</h3>
+                    <div class="amount">500만원</div>
+                    <p>브랜드 사용권 및 운영 노하우</p>
+                </div>
+                
+                <div class="investment-item">
+                    <h3>인테리어비</h3>
+                    <div class="amount">2,000만원</div>
+                    <p>매장 규모에 따라 차등 적용</p>
+                </div>
+                
+                <div class="investment-item">
+                    <h3>장비비</h3>
+                    <div class="amount">800만원</div>
+                    <p>주방 장비 및 POS 시스템</p>
+                </div>
+                
+                <div class="investment-item">
+                    <h3>교육비</h3>
+                    <div class="amount">무료</div>
+                    <p>본사 직영점 실무 교육</p>
+                </div>
+            </div>
+            
+            <div class="total-investment">
+                <h3>총 창업비용</h3>
+                <div class="total-amount">약 3,300만원</div>
+                <p>*임대료, 보증금 별도 / 매장 규모에 따라 변동 가능</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Taste Section -->
+    <section class="taste">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">고객을 사로잡는</span> 맛!</h2>
+            <h3 class="taste-subtitle"><span class="highlight">주문율 상승의</span> 근본<br>독창적인 맛과 구성!</h3>
+            
+            <div class="taste-features">
+                <div class="taste-item">
+                    <img class="taste-image" src="/Users/jiyunseok/Desktop/연어육회/그라브락스.jpg" alt="그라브락스">
+                    <h4>핑크빛 연어의 유혹, 그라브락스!</h4>
+                    <p>북유럽 전통 방식으로 숙성시킨 연어의 깊은 맛과 부드러운 식감이 일품입니다.</p>
+                </div>
+                <div class="taste-item">
+                    <img class="taste-image" src="/Users/jiyunseok/Desktop/연어육회/소스.jpg" alt="특제 소스">
+                    <h4>처음 경험하는 깊은 풍미의 소스!</h4>
+                    <p>특별한 레시피로 만든 소스가 연어의 맛을 한층 더 깊게 만들어줍니다.</p>
+                </div>
+                <div class="taste-item">
+                    <img class="taste-image" src="/Users/jiyunseok/Desktop/연어육회/5분미역국.jpg" alt="5분 미역국">
+                    <h4>5분?! 만에 이렇게 깊은맛을 낸다고?</h4>
+                    <p>빠른 조리시간에도 불구하고 깊고 진한 맛을 자랑하는 비법을 경험해보세요.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stats -->
+    <section class="success-stats">
+        <div class="container">
+            <h2 class="section-title">지금 바로 시작하세요!</h2>
+            <h3 class="stats-subtitle">성공하는 가맹점주들이 선택한 흰고래&돌섬</h3>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">가맹점 만족도</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">전국 가맹점</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8★</div>
+                    <div class="stat-label">고객 평점</div>
+                </div>
+            </div>
+            
+            <button class="cta-btn">지금 상담받기</button>
+        </div>
+    </section>
+
+    <!-- Territory Protection -->
+    <section class="territory">
+        <div class="container">
+            <h2 class="section-title">창업불가지역 안내</h2>
+            <p class="territory-description">흰고래&돌섬은 이미 가맹점이 있는 지역의 출점을 제한하고 있습니다.<br>이는 가맹점의 수익성을 높이고 상호 간의 경쟁을 방지하여<br>안정적인 사업 운영을 보장하기 위함입니다.</p>
+            
+            <div class="territory-benefits">
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <p>기존 가맹점과의 상권 보호로 매출 안정성 확보</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <p>과도한 경쟁 방지로 수익률 극대화</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <p>체계적인 상권 관리로 브랜드 가치 상승</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <p>가맹점주 간의 상생 협력 관계 구축</p>
+                </div>
+            </div>
+            
+            <p class="territory-cta">창업을 희망하시는 지역이 출점 가능한지 궁금하시다면<br>지금 바로 문의해 주세요!</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <div class="container">
+            <h2 class="section-title">흰고래&돌섬 다양하게 주문가능한 메뉴구성</h2>
+            <p class="menu-time">모든메뉴는 전부 10:00~ 익일 01:00 까지 주문 가능합니다.</p>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="dolseom">돌섬</button>
+                <button class="tab-btn" data-tab="whitewhale">흰고래</button>
+                <button class="tab-btn" data-tab="side">사이드</button>
+            </div>
+            
+            <div class="menu-content">
+                <div class="menu-grid active" id="dolseom">
+                    <h3>돌섬메뉴</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-image">🍲</div>
+                            <p>미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥩</div>
+                            <p>소고기미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐷</div>
+                            <p>돼지고기미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🦐</div>
+                            <p>새우미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐚</div>
+                            <p>전복미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🦪</div>
+                            <p>조개미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐔</div>
+                            <p>닭고기미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🦑</div>
+                            <p>해물미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">⭐</div>
+                            <p>특미역국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🌱</div>
+                            <p>콩나물국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐟</div>
+                            <p>북어국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥬</div>
+                            <p>김치국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍜</div>
+                            <p>된장국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥘</div>
+                            <p>순두부국</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍚</div>
+                            <p>떡국</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-grid" id="whitewhale">
+                    <h3>흰고래 메뉴</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-image">🍣</div>
+                            <p>그라브락스</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐟</div>
+                            <p>연어육회</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍱</div>
+                            <p>연어사시미</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍚</div>
+                            <p>연어덮밥</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥗</div>
+                            <p>연어포케</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍽️</div>
+                            <p>연어타르타르</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐠</div>
+                            <p>연어카르파치오</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥑</div>
+                            <p>연어아보카도</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥙</div>
+                            <p>연어샐러드</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🔥</div>
+                            <p>연어스테이크</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🌯</div>
+                            <p>연어롤</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍤</div>
+                            <p>연어초밥</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍜</div>
+                            <p>연어나가사키</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍝</div>
+                            <p>연어크림파스타</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍛</div>
+                            <p>연어리조또</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-grid" id="side">
+                    <h3>사이드메뉴</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-image">🥬</div>
+                            <p>김치</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥒</div>
+                            <p>단무지</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🌱</div>
+                            <p>콩나물</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥬</div>
+                            <p>시금치나물</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🌿</div>
+                            <p>도라지나물</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍄</div>
+                            <p>고사리나물</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🌊</div>
+                            <p>미역줄기</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥒</div>
+                            <p>오이무침</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥕</div>
+                            <p>무생채</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥚</div>
+                            <p>계란말이</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍢</div>
+                            <p>어묵볶음</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🐟</div>
+                            <p>멸치볶음</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🧂</div>
+                            <p>젓갈류</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🥤</div>
+                            <p>음료수</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-image">🍺</div>
+                            <p>주류</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <div class="contact-bar">
+        <div class="contact-content">
+            <div class="contact-info">
+                <strong>가맹문의 1644-6123</strong>
+                <span>문의남겨주시면 순차적으로 연락드리겠습니다.</span>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="성함" required>
+                <input type="tel" placeholder="연락처" required>
+                <input type="text" placeholder="희망지역" required>
+                <button type="submit">문의하기</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
