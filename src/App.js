@@ -54,8 +54,8 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo-section">
-            <img src="/dolseom-logo.png" alt="돌섬미역국" className="logo-img" />
-            <img src="/whitewhale-logo.png" alt="흰고래연어육회" className="logo-img" />
+            <img src={process.env.PUBLIC_URL + "/dolseom-logo.png"} alt="돌섬미역국" className="logo-img" />
+            <img src={process.env.PUBLIC_URL + "/whitewhale-logo.png"} alt="흰고래연어육회" className="logo-img" />
           </div>
           <div className="brand-info">
             <div className="logo">흰고래연어육회</div>
@@ -73,7 +73,7 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="hero with-bg" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/첫컴포넌트 배경사진.png')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('${process.env.PUBLIC_URL}/첫컴포넌트 배경사진.png')`
       }}>
         <div className="hero-content">
           <h1 className="hero-title animate-on-scroll">오직, 배달 만으로</h1>
@@ -217,7 +217,7 @@ function App() {
         <div className="container">
           <h2 className="section-title">가장 중요한 <span className="highlight">순이익은</span> 무려 25%이상</h2>
           <div className="profit-display">
-            <img src="/profit.png" alt="순이익 27.2%" className="profit-image" />
+            <img src={process.env.PUBLIC_URL + "/profit.png"} alt="순이익 27.2%" className="profit-image" />
             <div className="profit-arrow">→</div>
             <div className="profit-text">27.2%</div>
           </div>
@@ -232,12 +232,12 @@ function App() {
           
           <div className="dual-concept">
             <div className="concept-item">
-              <img src="/dolseom-logo.png" alt="돌섬미역국" className="concept-logo" />
+              <img src={process.env.PUBLIC_URL + "/dolseom-logo.png"} alt="돌섬미역국" className="concept-logo" />
             </div>
             <div className="plus">+</div>
             <div className="concept-item">
               <h4>밤 - 흰고래연어육회</h4>
-              <img src="/whitewhale-logo.png" alt="흰고래연어육회" className="concept-logo" />
+              <img src={process.env.PUBLIC_URL + "/whitewhale-logo.png"} alt="흰고래연어육회" className="concept-logo" />
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ function App() {
 
       {/* Taste Section */}
       <section className="taste with-bg" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/taste-bg.jpg')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${process.env.PUBLIC_URL}/taste-bg.jpg')`
       }}>
         <div className="container">
           <h2 className="section-title"><span className="highlight">고객을 사로잡는</span> 맛!</h2>
@@ -253,21 +253,21 @@ function App() {
           
           <div className="taste-features">
             <div className="taste-item">
-              <img src="/gravlax.png" alt="그라브락스" className="taste-image" />
+              <img src={process.env.PUBLIC_URL + "/gravlax.png"} alt="그라브락스" className="taste-image" />
               <div className="taste-content">
                 <h4>핑크빛 연어의 유혹, 그라브락스!</h4>
                 <p>북유럽 전통 방식으로 숙성시킨 연어의 깊은 맛과 부드러운 식감이 일품입니다.</p>
               </div>
             </div>
             <div className="taste-item">
-              <img src="/sauce.png" alt="깊은 풍미의 소스" className="taste-image" />
+              <img src={process.env.PUBLIC_URL + "/sauce.png"} alt="깊은 풍미의 소스" className="taste-image" />
               <div className="taste-content">
                 <h4>처음 경험하는 깊은 풍미의 소스!</h4>
                 <p>특별한 레시피로 만든 소스가 연어의 맛을 한층 더 깊게 만들어줍니다.</p>
               </div>
             </div>
             <div className="taste-item">
-              <img src="/soup.png" alt="5분 미역국" className="taste-image" />
+              <img src={process.env.PUBLIC_URL + "/soup.png"} alt="5분 미역국" className="taste-image" />
               <div className="taste-content">
                 <h4>5분?! 만에 이렇게 깊은맛을 낸다고?</h4>
                 <p>빠른 조리시간에도 불구하고 깊고 진한 맛을 자랑하는 비법을 경험해보세요.</p>
@@ -285,22 +285,22 @@ function App() {
           <div className="reviews-slider">
             <div className="reviews-track">
               <div className="review-card">
-                <img src="/review1.png" alt="배달후기 1" />
+                <img src={process.env.PUBLIC_URL + "/review1.png"} alt="배달후기 1" />
               </div>
               <div className="review-card">
-                <img src="/review2.png" alt="배달후기 2" />
+                <img src={process.env.PUBLIC_URL + "/review2.png"} alt="배달후기 2" />
               </div>
               <div className="review-card">
-                <img src="/review3.png" alt="배달후기 3" />
+                <img src={process.env.PUBLIC_URL + "/review3.png"} alt="배달후기 3" />
               </div>
               <div className="review-card">
-                <img src="/review1.png" alt="배달후기 1" />
+                <img src={process.env.PUBLIC_URL + "/review1.png"} alt="배달후기 1" />
               </div>
               <div className="review-card">
-                <img src="/review2.png" alt="배달후기 2" />
+                <img src={process.env.PUBLIC_URL + "/review2.png"} alt="배달후기 2" />
               </div>
               <div className="review-card">
-                <img src="/review3.png" alt="배달후기 3" />
+                <img src={process.env.PUBLIC_URL + "/review3.png"} alt="배달후기 3" />
               </div>
             </div>
           </div>
@@ -426,7 +426,7 @@ function App() {
             {activeTab === 'dolseom' && (
               <div className="menu-grid">
                 <div className="menu-brand-header">
-                  <img src="/dolseom-logo.png" alt="돌섬미역국" className="menu-brand-logo" />
+                  <img src={process.env.PUBLIC_URL + "/dolseom-logo.png"} alt="돌섬미역국" className="menu-brand-logo" />
                   <h3>돌섬메뉴</h3>
                 </div>
                 <div className="menu-items">
@@ -443,7 +443,7 @@ function App() {
             {activeTab === 'whitewhale' && (
               <div className="menu-grid">
                 <div className="menu-brand-header">
-                  <img src="/whitewhale-logo.png" alt="흰고래연어육회" className="menu-brand-logo" />
+                  <img src={process.env.PUBLIC_URL + "/whitewhale-logo.png"} alt="흰고래연어육회" className="menu-brand-logo" />
                   <h3>흰고래 메뉴</h3>
                 </div>
                 <div className="menu-items">
